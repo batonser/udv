@@ -1,2 +1,0 @@
-# udv
-udv.dev
