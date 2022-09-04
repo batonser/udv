@@ -5,7 +5,7 @@ RUN bash scrips
 
 ./run_container.sh  - Импорт image и последующий запуск container.
 
-Доступность сервиса
+Проверка доступности сервиса
 http://IP 
 
 
