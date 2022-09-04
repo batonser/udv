@@ -8,9 +8,11 @@ git clone https://github.com/batonser/udv.git
 ./run_container.sh  - Импорт image и последующий запуск container.
 
 #Проверка доступности сервиса в web browser
+
 http://IP 
 
 #Проверка доступности сервиса в console
+
 curl http://IP
 
 Источник https://blog.devsense.com/2019/php-nginx-docker
