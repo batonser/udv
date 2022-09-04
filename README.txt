@@ -7,3 +7,6 @@ RUN bash scrips
 
 Доступность сервиса
 http://IP 
+
+
+Источники https://blog.devsense.com/2019/php-nginx-docker
