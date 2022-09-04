@@ -1,0 +1,15 @@
+version: "3"
+services:
+  nginx:
+    image: nginx:service
+    ports: 
+      - "80:8080"
+    networks:
+      - internal
+  php:
+    image: php-fpm:service
+    networks:
+      - internal
+networks:
+  internal:
+    driver: bridge

@@ -1,0 +1,4 @@
+FROM nginx:alpine
+RUN mkdir -p /var/www/html
+ADD ./data/default.conf /etc/nginx/conf.d
+COPY ./data/ /var/www/html/
