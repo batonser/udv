@@ -3,12 +3,16 @@
 
 Качаем git репозиторий в удобный вам каталог, после чего нада будет выполнить 2 bash скрипта.
 
-./install_soft.sh  - Установка Docker-compose и Docker CE
+# git clone https://github.com/batonser/udv.git
+# ./install_soft.sh  - Установка Docker-compose и Docker CE
 
-./run_container.sh  - Импорт image и последующий запуск container.
+# ./run_container.sh  - Импорт image и последующий запуск container.
 
-Проверка доступности сервиса
+Проверка доступности сервиса в web browser
 http://IP 
 
+Проверка доступности сервиса в console
 
-Источники https://blog.devsense.com/2019/php-nginx-docker
+curl http://IP
+
+Источник https://blog.devsense.com/2019/php-nginx-docker
