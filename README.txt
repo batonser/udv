@@ -3,7 +3,7 @@
 RUN bash scrips
 ./install_soft.sh  - Установка необходимого софта
 
-./run_container.sh  - Импорт image и последующий запуск.
+./run_container.sh  - Импорт image и последующий запуск container.
 
 Доступность сервиса
 http://IP 
